@@ -12,7 +12,7 @@ console.log(enemyNames[3]);
 console.log(enemyNames.length);
 console.log(enemyNames[0]);
 
-// FIGHT
+// FIGHT FUNCTION
 var fight = function (enemyName) {
   while (enemyHealth > 0 && playerHealth > 0) {
     // ask player if they'd like to fight or run
@@ -66,7 +66,6 @@ var fight = function (enemyName) {
       window.alert(playerName + " still has " + playerHealth + " health left.");
     }
   }
-};
    
 // fight each enemy-robot by looping over them and fighting them one at a time
 for (var i = 0; i < enemyNames.length; i++) {
